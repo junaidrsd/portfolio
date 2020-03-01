@@ -1,10 +1,13 @@
 import React from 'react';
+import './Project.scss';
 
-const Projects = ({title, description, imageURL}) => (
-  <a className="project">
-    <img className="project__image" src={imageURL} alt={title} />
-    <div className="project__title"></div>
+const Projects = ({ id, title, description, image }) => (
+  <div className="project">
+  <a href="/" >
+    <img className="project__image" src={`${process.env.PUBLIC_URL}/${image}`} alt={title} />
+    <div className="project__title">{process.env.PUBLIC_URL}</div>
   </a>
+  </div>
 )
 
 export default Projects;

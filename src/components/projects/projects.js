@@ -3,9 +3,13 @@ import projects from '../../shared/projects.json';
 import Project from './Project.js';
 
 const Projects = () => (
-  projects.map(project => 
-   <Project title={project.title} description={project.description} imageURL={project.imageURL} /> 
-  )
+  <div className="projects">
+    {
+      projects.map(project =>
+        <Project key={project.id} id={project.id} image={project.image} title={project.title} description={project.description} />
+      )
+    }
+  </div>
 )
 
 export default Projects;
