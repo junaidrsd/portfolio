@@ -1,0 +1,37 @@
+@import './shared/colors'; 
+
+@font-face {
+  font-family: effra;
+  src: url(./shared/fonts/effra/Effra_Std_Rg.ttf);
+}
+
+/*
+  Browsers default font-size is 16px. Using pixel is not a good practice
+  because changing default font-size won't effect the element's font-size in hierarchy
+  and it is not good user experience. So we use rem.
+*/
+html {
+  font-size: 62.5%; // Setting default font size so that 1rem is equal to 10px which is easy to use.
+}
+
+body {
+  font-size: 1.6rem; // Resetting font size 16px using rem
+  line-height: 1.5;
+  font-family: effra;
+  color: $color-black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
