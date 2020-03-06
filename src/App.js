@@ -5,8 +5,9 @@ import './App.scss';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header/>
+      <div className="app__text" ><h3>Representing</h3></div>
       <div className="page">
         <Projects />
       </div>

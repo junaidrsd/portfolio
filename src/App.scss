@@ -3,3 +3,25 @@
   padding-right: 8vw;
   padding-left: 8vw;
 }
+
+.app {
+  &__text {
+    text-align: center;
+    white-space: pre-wrap;
+    padding-top: 48px;
+    padding-bottom: 86px;
+    h3 {
+      font-family: effra;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 1.2em;
+      letter-spacing: .05em;
+      text-transform: none;
+      color: #32324c;
+      text-transform: uppercase;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+  }
+}

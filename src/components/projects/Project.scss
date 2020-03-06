@@ -2,9 +2,67 @@
   display: flex;
   flex-wrap: wrap;
   .project {
-    width: 30%;
+    display: block;
+    width: calc(33% - 1.31934%);
+    margin-bottom: 2.47934%;
+    margin-right: 2.47934%;
+    clear: left;
+
+    @media only screen and (min-width: 1214px) {
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+    }
+
     &__image {
+      top: 0px;
       width: 100%;
+      height: 288px;
+      position: absolute;
+      object-fit: cover;
+      opacity: 0;
+      display: block;
+      font-size: 13px;
+      line-height: normal;
+      transition: .6s opacity;       
+      @media only screen and (max-width: 640px) {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 32px;
+        height: auto;
+      }
+    }
+
+    @media only screen and (max-width: 1214px) {
+      width: calc(50% - 1.47934%);
+      &__image {
+        width: 100%;
+        height: 100%;
+      }
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+    }
+
+    @media only screen and (max-width: 640px) {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 32px;
+    }
+    
+    &__link {
+      position: relative;
+    }
+
+    &__img-wrapper {
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 75%;
+      width: 100%;
+      height: auto;
+    }
+    &__animate-show {
+      opacity: 1;
     }
   }
 }

@@ -28,5 +28,24 @@
     "title": "Service blueprint Hus Jorvi",
     "description": "Fixpal digital design",
     "image": "jorvi.jpg"
+  },
+  {
+    "id": "broken",
+    "title": "Broken",
+    "description": "Broken",
+    "image": "broken.jpg"
+  },
+  {
+    "id": "Photography",
+    "title": "Photography",
+    "description": "Photography",
+    "image": "photography.png"
+  },
+  {
+    "id": "theflyingfish",
+    "title": "The Flying Fish",
+    "description": "The Flying Fish",
+    "image": "flying.jpg"
   }
+
 ]
