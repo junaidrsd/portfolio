@@ -5,6 +5,7 @@
     display: block;
     width: calc(33% - 1.31934%);
     margin-bottom: 2.47934%;
+    margin-bottom: 30px;
     margin-right: 2.47934%;
     clear: left;
 
@@ -25,7 +26,7 @@
       font-size: 13px;
       line-height: normal;
       transition: .6s opacity;       
-      @media only screen and (max-width: 640px) {
+      @media only screen and (max-width: 809px) {
         width: 100%;
         margin-right: 0;
         margin-bottom: 32px;
@@ -44,7 +45,7 @@
       }
     }
 
-    @media only screen and (max-width: 640px) {
+    @media only screen and (max-width: 809px) {
       width: 100%;
       margin-right: 0;
       margin-bottom: 32px;
@@ -61,8 +62,26 @@
       width: 100%;
       height: auto;
     }
+
     &__animate-show {
       opacity: 1;
+    }
+
+    &__title {
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-top: 15px;
+      a {
+        color: #858585;
+        text-decoration: none;
+        font-weight: 300;
+        text-rendering: optimizeLegibility;
+        &:hover {
+          text-decoration: underline;
+        }  
+      }
     }
   }
 }

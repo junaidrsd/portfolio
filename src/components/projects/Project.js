@@ -20,7 +20,9 @@ const Projects = ({ id, title, description, image }) => {
         <div className="project__img-wrapper">
           <img className={"project__image" + (show ? ' project__animate-show' : '')} src={`${process.env.PUBLIC_URL}/${image}`} alt={title} />
         </div>
-        <div className="project__title">{process.env.PUBLIC_URL}</div>
+        <div className="project__title">
+          <a href="/">{title}</a>
+        </div>
       </a>
     </div>
 )}
