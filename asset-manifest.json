@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "./static/css/main.dc8b848b.chunk.css",
-    "main.js": "./static/js/main.f7fe982d.chunk.js",
-    "main.js.map": "./static/js/main.f7fe982d.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.4b4f2f1c.js",
-    "runtime-main.js.map": "./static/js/runtime-main.4b4f2f1c.js.map",
-    "static/css/2.764ccc25.chunk.css": "./static/css/2.764ccc25.chunk.css",
-    "static/js/2.c56b15a2.chunk.js": "./static/js/2.c56b15a2.chunk.js",
-    "static/js/2.c56b15a2.chunk.js.map": "./static/js/2.c56b15a2.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.99966d26592117118ddacaa936eaa559.js": "./precache-manifest.99966d26592117118ddacaa936eaa559.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/2.764ccc25.chunk.css.map": "./static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.dc8b848b.chunk.css.map": "./static/css/main.dc8b848b.chunk.css.map",
-    "static/js/2.c56b15a2.chunk.js.LICENSE.txt": "./static/js/2.c56b15a2.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "./static/media/Effra_Std_Rg.2556d7a2.ttf"
+    "main.css": "/portfolio/static/css/main.9e358bdf.chunk.css",
+    "main.js": "/portfolio/static/js/main.5f0623b3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5f0623b3.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f6eb50f0.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f6eb50f0.js.map",
+    "static/css/2.764ccc25.chunk.css": "/portfolio/static/css/2.764ccc25.chunk.css",
+    "static/js/2.c56b15a2.chunk.js": "/portfolio/static/js/2.c56b15a2.chunk.js",
+    "static/js/2.c56b15a2.chunk.js.map": "/portfolio/static/js/2.c56b15a2.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.5d74035272f3f9bed1ad113ed2cc2856.js": "/portfolio/precache-manifest.5d74035272f3f9bed1ad113ed2cc2856.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/portfolio/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.9e358bdf.chunk.css.map": "/portfolio/static/css/main.9e358bdf.chunk.css.map",
+    "static/js/2.c56b15a2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c56b15a2.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/portfolio/static/media/Effra_Std_Rg.2556d7a2.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.4b4f2f1c.js",
+    "static/js/runtime-main.f6eb50f0.js",
     "static/css/2.764ccc25.chunk.css",
     "static/js/2.c56b15a2.chunk.js",
-    "static/css/main.dc8b848b.chunk.css",
-    "static/js/main.f7fe982d.chunk.js"
+    "static/css/main.9e358bdf.chunk.css",
+    "static/js/main.5f0623b3.chunk.js"
   ]
 }
