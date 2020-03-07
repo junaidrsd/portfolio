@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <Router history={createBrowserHistory} basename={process.env.PUBLIC_URL}>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/" exact component={RenderProjects} />
           <Route path="/contact" component={Contact} />
