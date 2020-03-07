@@ -26,7 +26,7 @@ const RenderProjects = () => (
 
 function App() {
   return (
-    <Router history={createBrowserHistory} basename={process.env.PUBLIC_URL}>
+    <Router history={createBrowserHistory} path={process.env.PUBLIC_URL + '/'}>
       <div className="app">
         <Header />
         <Switch>
