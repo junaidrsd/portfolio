@@ -7,6 +7,7 @@ import {
 import Header from './components/header/Header';
 import Projects from './components/projects/Projects';
 import Divider from './components/Divider';
+import { createBrowserHistory } from 'history';
 import './App.scss';
 
 function Contact() {
@@ -25,13 +26,14 @@ const RenderProjects = () => (
 
 function App() {
   return (
-    <Router>
+    <Router history={createBrowserHistory} basename={process.env.PUBLIC_URL}>
       <div className="app">
         <Header />
         <Switch>
           <Route path="/" exact component={RenderProjects} />
           <Route path="/contact" component={Contact}/>
           <Route path="/" component={Contact}/>
+          <Route component={() => (<div>404 Not found </div>)} />
         </Switch>
       </div>
     </Router>
