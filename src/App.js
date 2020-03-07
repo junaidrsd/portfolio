@@ -26,17 +26,17 @@ const RenderProjects = () => (
 
 function App() {
   return (
-    <Router history={createBrowserHistory} path={process.env.PUBLIC_URL + '/'}>
-      <div className="app">
-        <Header />
+    <div className="app">
+      <Header />
+      <Router history={createBrowserHistory} basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/" exact component={RenderProjects} />
-          <Route path="/contact" component={Contact}/>
-          <Route path="/" component={Contact}/>
+          <Route path="/contact" component={Contact} />
+          <Route path="/" component={Contact} />
           <Route component={() => (<div>404 Not found </div>)} />
         </Switch>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
