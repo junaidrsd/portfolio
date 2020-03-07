@@ -26,17 +26,16 @@ const RenderProjects = () => (
 
 function App() {
   return (
-    <div className="app">
-      <Header />
-      <Router basename={process.env.PUBLIC_URL}>
+    <Router history={createBrowserHistory} basename={process.env.PUBLIC_URL}>
+      <div className="app">
+        <Header />
         <Switch>
           <Route path="/" exact component={RenderProjects} />
           <Route path="/contact" component={Contact} />
-          <Route path="/" component={Contact} />
           <Route component={() => (<div>404 Not found </div>)} />
         </Switch>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
