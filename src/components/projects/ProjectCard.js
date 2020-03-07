@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import './ProjectCard.scss';
 
 
@@ -11,10 +11,8 @@ const Projects = ({ id, title, description, image }) => {
     }, 0);
     return () => clearTimeout(timer);
   }, []);
-  const classes = [
-
-  ]
-  return(
+  
+  return (
     <div className="project">
       <a className="project__link" href="/" >
         <div className="project__img-wrapper">
@@ -25,6 +23,7 @@ const Projects = ({ id, title, description, image }) => {
         </div>
       </a>
     </div>
-)}
+  )
+}
 
 export default Projects;
