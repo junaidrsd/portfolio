@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import './Project.scss';
+import './ProjectCard.scss';
 
 
 const Projects = ({ id, title, description, image }) => {
