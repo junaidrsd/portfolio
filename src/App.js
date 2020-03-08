@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Header from './components/header/Header';
 import Projects from './components/projects/Projects';
+import Project from './components/projects/Project';
 import Divider from './components/Divider';
 import { createBrowserHistory } from 'history';
 import './App.scss';
@@ -32,6 +33,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={RenderProjects} />
           <Route path="/contact" component={Contact} />
+          <Route path="/project/:id" component={Project} />
           <Route component={() => (<div>404 Not found </div>)} />
         </Switch>
       </div>
